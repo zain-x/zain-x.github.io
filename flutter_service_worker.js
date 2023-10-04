@@ -13,7 +13,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "7897ad6f9f4ad5ffa8f4d23226e741dd
 "assets/images/laptop.png": "3ef6e3867069e25c14255cd421be8ad8",
 "assets/images/moon.jpg": "f25add5b759980e9f2de1e7c9700f98a",
 "assets/images/oxz-demo1.png": "c87090bec9b1d2e1abe17038fabb3c64",
-"assets/images/oxz-logo.png": "83406bcb49e6da74eff796cdb4c8cac0",
+"assets/images/oxz-logo.png": "c88fb18f1f0a643cbe117ed8fd206ddf",
 "assets/images/oxz-logo2.png": "a459df0fa386d9b7db177e9373e2dfcc",
 "assets/images/oXz.png": "75ab7432a5ab95268590003e39039ff9",
 "assets/images/rocket.gif": "d4bdcf04c5aae1579d22575d0cb8bb4e",
@@ -39,9 +39,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "7897ad6f9f4ad5ffa8f4d23226e741dd
 "icons/Icon-512.png": "75ab7432a5ab95268590003e39039ff9",
 "icons/Icon-maskable-192.png": "20d68fc193a02c1b8fa6ba264e98250c",
 "icons/Icon-maskable-512.png": "75ab7432a5ab95268590003e39039ff9",
-"index.html": "6698004e3f0804e72546233ef68087b9",
-"/": "6698004e3f0804e72546233ef68087b9",
-"main.dart.js": "ae6ad729e5515ca9abe91e0f90553fec",
+"index.html": "e1ced431e054e43f800ece09ab7002a0",
+"/": "e1ced431e054e43f800ece09ab7002a0",
+"main.dart.js": "a45d57d6d5bdb59ec6b565758c6df779",
 "manifest.json": "f14d6d2a4c4f37c7c225b82af6078b87",
 "version.json": "02eeba18a1b54a192086fe818246859c"};
 // The application shell files that are downloaded before a service worker can

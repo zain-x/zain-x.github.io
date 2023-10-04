@@ -1749,7 +1749,7 @@ s=s*36+A.TZ(q)}},
 aox(a){if(a==null)return null
 return new A.Ya($.ab,a)},
 aki(){var s,r,q,p,o,n=A.ayd(self.window.navigator)
-if(n==null||n.length===0)return B.ls
+if(n==null||n.length===0)return B.lt
 s=A.a([],t.ss)
 for(r=n.length,q=0;q<n.length;n.length===r||(0,A.N)(n),++q){p=n[q]
 o=J.aww(p,"-")
@@ -7699,7 +7699,7 @@ aDE(a,b,c){var s,r,q
 if(b===c)return""
 if(!A.arr(a.charCodeAt(b)))A.tF(a,b,"Scheme not starting with alphabetic character")
 for(s=b,r=!1;s<c;++s){q=a.charCodeAt(s)
-if(!(q<128&&(B.lt[q>>>4]&1<<(q&15))!==0))A.tF(a,s,"Illegal scheme character")
+if(!(q<128&&(B.lu[q>>>4]&1<<(q&15))!==0))A.tF(a,s,"Illegal scheme character")
 if(65<=q&&q<=90)r=!0}a=B.d.aa(a,b,c)
 return A.aDx(r?a.toLowerCase():a)},
 aDx(a){if(a==="http")return"http"
@@ -7804,7 +7804,7 @@ return B.b.bx(s,"/")},
 arq(a){var s,r,q=a.length
 if(q>=2&&A.arr(a.charCodeAt(0)))for(s=1;s<q;++s){r=a.charCodeAt(s)
 if(r===58)return B.d.aa(a,0,s)+"%3A"+B.d.bY(a,s+1)
-if(r>127||(B.lt[r>>>4]&1<<(r&15))===0)break}return a},
+if(r>127||(B.lu[r>>>4]&1<<(r&15))===0)break}return a},
 aDH(a,b){if(a.aa0("package")&&a.c==null)return A.asp(b,0,b.length)
 return-1},
 arB(a){var s,r,q,p=a.gnU(),o=p.length
@@ -45632,7 +45632,7 @@ WB(a){var s,r=this,q=null,p=r.a,o=p.e,n=p.f,m=p.r,l=p.y
 p=p.CW
 s=r.ga0N()
 r.a.toString
-return new A.zl(q,q,q,new A.adv(),q,q,q,q,q,o,n,l,m,B.Gr,r.ga0W(),p,q,B.Ok,B.aI,q,s,q,q,B.ls,!1,!1,!1,!1,r.ga0q(),!1,q,q,q,new A.jS(r,t.bT))},
+return new A.zl(q,q,q,new A.adv(),q,q,q,q,q,o,n,l,m,B.Gr,r.ga0W(),p,q,B.Ok,B.aI,q,s,q,q,B.lt,!1,!1,!1,!1,r.ga0q(),!1,q,q,q,new A.jS(r,t.bT))},
 I(a){var s,r=null,q=A.FH(!1,!1,this.WB(a),r,r,r,r,!0,r,r,new A.adw(),r,r,r)
 this.a.toString
 s=this.d
@@ -73196,9 +73196,9 @@ j=A.aS(a,m,j).w
 s=A.af(46,156,39,176)
 if(h){r=A.fc()
 q=t.p
-q=A.d1(new A.aC(B.bN,A.bS(A.a([A.d5(r,A.eb(m,B.R,m,l,m,280),m,m,m,m),A.d1(new A.aC(B.d3,A.bS(A.a([A.bL(k,m,m,m,m,A.c7(m,m,A.af(B.c.aI(229.5),255,255,255),m,m,m,m,m,m,m,m,22,m,m,B.aa,m,m,!0,m,m,m,m,m,m,m,m),m,m),A.nc(B.u,B.lv,i/1.5)],q),B.G,B.S,B.v),m),B.ai)],q),B.G,B.S,B.dt),m),B.b4)
+q=A.d1(new A.aC(B.bN,A.bS(A.a([A.d5(r,A.eb(m,B.R,m,l,m,280),m,m,m,m),A.d1(new A.aC(B.d3,A.bS(A.a([A.bL(k,m,m,m,m,A.c7(m,m,A.af(B.c.aI(229.5),255,255,255),m,m,m,m,m,m,m,m,22,m,m,B.aa,m,m,!0,m,m,m,m,m,m,m,m),m,m),A.nc(B.u,B.ls,i/1.5)],q),B.G,B.S,B.v),m),B.ai)],q),B.G,B.S,B.dt),m),B.b4)
 r=q}else{r=t.p
-r=A.fH(A.a([new A.aC(B.et,A.cy(A.d1(A.d5(A.fc(),A.eb(m,B.R,m,l,m,450),m,m,m,m),B.ai),m,m,B.L),m),B.fq,new A.aC(B.cj,A.d1(new A.aC(B.d4,A.bS(A.a([A.bL(k,m,m,m,m,A.c7(m,m,A.af(B.c.aI(229.5),255,255,255),m,m,m,m,m,m,m,m,33,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m),A.nc(B.u,B.lv,i/3.2)],r),B.G,B.S,B.v),m),B.ai),m)],r),B.cr,B.v)}r=A.dZ(A.cy(r,m,m,B.W),m,m)
+r=A.fH(A.a([new A.aC(B.et,A.cy(A.d1(A.d5(A.fc(),A.eb(m,B.R,m,l,m,450),m,m,m,m),B.ai),m,m,B.L),m),B.fq,new A.aC(B.cj,A.d1(new A.aC(B.d4,A.bS(A.a([A.bL(k,m,m,m,m,A.c7(m,m,A.af(B.c.aI(229.5),255,255,255),m,m,m,m,m,m,m,m,33,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m),A.nc(B.u,B.ls,i/3.2)],r),B.G,B.S,B.v),m),B.ai),m)],r),B.cr,B.v)}r=A.dZ(A.cy(r,m,m,B.W),m,m)
 q=h?200:350
 p=h?45:190
 o=A.rA(m,m)
@@ -73276,9 +73276,9 @@ j=A.aS(a,m,j).w
 s=A.af(51,0,150,136)
 if(h){r=A.fc()
 q=t.p
-q=A.d1(new A.aC(B.bN,A.bS(A.a([A.d5(r,A.eb(m,B.R,m,l,m,280),m,m,m,m),A.d1(new A.aC(B.d3,A.bS(A.a([A.bL(k,m,m,m,m,A.c7(m,m,A.af(B.c.aI(229.5),255,255,255),m,m,m,m,m,m,m,m,22,m,m,B.aa,m,m,!0,m,m,m,m,m,m,m,m),m,m),A.nc(B.u,B.lu,i/1.5)],q),B.G,B.S,B.v),m),B.ai)],q),B.G,B.S,B.v),m),B.b4)
+q=A.d1(new A.aC(B.bN,A.bS(A.a([A.d5(r,A.eb(m,B.R,m,l,m,280),m,m,m,m),A.d1(new A.aC(B.d3,A.bS(A.a([A.bL(k,m,m,m,m,A.c7(m,m,A.af(B.c.aI(229.5),255,255,255),m,m,m,m,m,m,m,m,22,m,m,B.aa,m,m,!0,m,m,m,m,m,m,m,m),m,m),A.nc(B.u,B.lv,i/1.5)],q),B.G,B.S,B.v),m),B.ai)],q),B.G,B.S,B.v),m),B.b4)
 r=q}else{r=t.p
-r=A.fH(A.a([new A.aC(B.et,A.cy(A.d1(A.d5(A.fc(),A.eb(m,B.R,m,l,m,450),m,m,m,m),B.ai),m,m,B.L),m),B.fq,new A.aC(B.cj,A.d1(new A.aC(B.d4,A.bS(A.a([A.bL(k,m,m,m,m,A.c7(m,m,A.af(B.c.aI(229.5),255,255,255),m,m,m,m,m,m,m,m,33,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m),A.nc(B.u,B.lu,i/3.2)],r),B.G,B.S,B.v),m),B.ai),m)],r),B.cr,B.v)}r=A.dZ(A.cy(r,m,m,B.W),m,m)
+r=A.fH(A.a([new A.aC(B.et,A.cy(A.d1(A.d5(A.fc(),A.eb(m,B.R,m,l,m,450),m,m,m,m),B.ai),m,m,B.L),m),B.fq,new A.aC(B.cj,A.d1(new A.aC(B.d4,A.bS(A.a([A.bL(k,m,m,m,m,A.c7(m,m,A.af(B.c.aI(229.5),255,255,255),m,m,m,m,m,m,m,m,33,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m),A.nc(B.u,B.lv,i/3.2)],r),B.G,B.S,B.v),m),B.ai),m)],r),B.cr,B.v)}r=A.dZ(A.cy(r,m,m,B.W),m,m)
 q=h?220:350
 p=h?45:190
 o=A.rA(m,m)
@@ -73341,7 +73341,7 @@ A.aeU.prototype={
 $0(){var s=0,r=A.S(t.H)
 var $async$$0=A.L(function(a,b){if(a===1)return A.P(b,r)
 while(true)switch(s){case 0:s=2
-return A.O(A.jx(A.d4("https://bit.ly/45qwtFi",0,null),B.bz,null),$async$$0)
+return A.O(A.jx(A.d4("https://bit.ly/3F4R8Dq",0,null),B.bz,null),$async$$0)
 case 2:return A.Q(null,r)}})
 return A.R($async$$0,r)},
 $S:7}
@@ -78591,12 +78591,13 @@ B.FC=A.a(s([B.e8]),t.QP)
 B.FD=A.a(s([B.fV,B.fW]),A.aq("A<um>"))
 B.FE=A.a(s([0,4,12,1,5,13,3,7,15]),t.Y)
 B.FF=A.a(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
+B.ls=A.a(s(["Quickly enter a unique project name","Easily select your project location","Ability to deploy a react project","Easy as One-click deploy the project","Instantly view the deployed project"]),t.s)
 B.FM=A.a(s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298]),t.Y)
 B.FN=A.a(s([0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0]),t.up)
 B.GX=new A.iQ("en","US")
-B.ls=A.a(s([B.GX]),t.ss)
+B.lt=A.a(s([B.GX]),t.ss)
 B.eR=A.a(s([0,0,24576,1023,65534,34815,65534,18431]),t.Y)
-B.lt=A.a(s([0,0,26624,1023,65534,2047,65534,2047]),t.Y)
+B.lu=A.a(s([0,0,26624,1023,65534,2047,65534,2047]),t.Y)
 B.FZ=A.a(s([0,0,32722,12287,65534,34815,65534,18431]),t.Y)
 B.ey=new A.eB(0)
 B.l1=new A.eB(1)
@@ -78604,8 +78605,7 @@ B.aT=new A.eB(4)
 B.l2=new A.eB(5)
 B.l3=new A.eB(7)
 B.G_=A.a(s([B.ey,B.l1,B.ez,B.z,B.aT,B.l2,B.aa,B.l3,B.d6]),A.aq("A<eB>"))
-B.lu=A.a(s(["Install needed configuration automatically","Blazing fast using the cors of Cpu & Gpu","Simple as one-click project creation","Code with your desired code editor","Direct app run with lovely interface"]),t.s)
-B.lv=A.a(s(["Quickly enter a unique project name","Easily select your project location","Ability to save/view your projects","Easy as One-click deploy the project","Instantly view the deployed custom url"]),t.s)
+B.lv=A.a(s(["Install needed configuration automatically","Blazing fast using the cors of Cpu & Gpu","Simple as one-click project creation","Code with your desired code editor","Direct app run with lovely interface"]),t.s)
 B.ay=new A.yZ(0,"upstream")
 B.K=new A.yZ(1,"downstream")
 B.G6=A.a(s([B.ay,B.K]),A.aq("A<yZ>"))
