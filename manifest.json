@@ -1,11 +1,11 @@
 {
-    "name": "oxz_space",
-    "short_name": "oxz_space",
+    "name": "oXz Os",
+    "short_name": "oXz Os",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "oXz Os is a high-quality application built on a unique algorithm designed to simplify development tasks for both beginners and advanced developers with a simple and friendly interface.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
