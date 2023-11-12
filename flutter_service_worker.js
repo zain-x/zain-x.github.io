@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "7897ad6f9f4ad5ffa8f4d23226e741dd",
-"assets/AssetManifest.json": "bf51fc91f8a232cff27a92bba1f41541",
+const RESOURCES = {"assets/AssetManifest.bin": "85ed9fdaff60ae873f963f14b53f814e",
+"assets/AssetManifest.json": "e451f7b3331c880ba98c19047d4eaaa0",
 "assets/FontManifest.json": "ec8a82ec184cf6cd45fbf68291b1fe6b",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
 "assets/images/apps.png": "e7e0cce652f0c7d4b917ec0d8e7c847f",
@@ -21,6 +21,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "7897ad6f9f4ad5ffa8f4d23226e741dd
 "assets/images/spaceship.png": "e1aaebe03b5cb1cf6d8cbfde65a197e1",
 "assets/images/spaceship1.png": "55c57760d0c5e830a2cee451edc5d246",
 "assets/images/timegate.png": "536a200b6a07cb68c2475ba639e52359",
+"assets/images/timewalk.gif": "581b2f92288c989d24e149bf41e4969a",
 "assets/images/x.png": "e8580f768b471aabfb922b57f7ecae00",
 "assets/NOTICES": "0ded4e8868b39655622592d7ef8f0873",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
@@ -39,9 +40,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "7897ad6f9f4ad5ffa8f4d23226e741dd
 "icons/Icon-512.png": "75ab7432a5ab95268590003e39039ff9",
 "icons/Icon-maskable-192.png": "20d68fc193a02c1b8fa6ba264e98250c",
 "icons/Icon-maskable-512.png": "75ab7432a5ab95268590003e39039ff9",
-"index.html": "cea1cb8c3120103acd6886ab473d405f",
-"/": "cea1cb8c3120103acd6886ab473d405f",
-"main.dart.js": "440b7c9f140f413b4a7c89ee9a4a60c4",
+"index.html": "26d65d4692144d5f20496e1f3aed2444",
+"/": "26d65d4692144d5f20496e1f3aed2444",
+"main.dart.js": "4f610207933d435fba576d04ee6ea29b",
 "manifest.json": "6a2a45812acb73d87cb41a7ffda184a3",
 "version.json": "02eeba18a1b54a192086fe818246859c"};
 // The application shell files that are downloaded before a service worker can
